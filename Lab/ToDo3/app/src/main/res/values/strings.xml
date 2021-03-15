@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToDo3</string>
+    <string name="sent">SENT</string>
+    <string name="message_received">Message Received</string>
+</resources>
