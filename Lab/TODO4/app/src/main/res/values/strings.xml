@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TODO4</string>
+    <string name="send">SEND</string>
+    <string name="reply">reply</string>
+    <string name="REPLY">REPLY</string>
+    <string name="text_header_reply">text_header_reply</string>
+</resources>
