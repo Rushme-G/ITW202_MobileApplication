@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/importId"
+            android:icon="@drawable/ic_baseline_import"
+            android:title="@string/imports" />
+
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/ic_baseline_photo_library_24"
+            android:title="@string/gallery" />
+
+        <item
+            android:id="@+id/slide"
+            android:icon="@drawable/ic_video"
+            android:title="@string/slideshow" />
+
+        <item
+            android:id="@+id/tools"
+            android:icon="@drawable/ic_tool"
+            android:title="@string/tools" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_baseline_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/send"
+                android:icon="@drawable/ic_baseline_send"
+                android:title="@string/send" />
+        </menu>
+    </item>
+</menu>
